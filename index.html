@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Junkie</title>
+    <script
+      src="https://kit.fontawesome.com/88ea6b8356.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/16f57ace59.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Sans+JP&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"  style="border: 0 !important; padding: 0 " > 
+        <!-- <link rel="stylesheet" href="./cdn.jsdelivr.net/bxslider/jquery.bxslider.css"> -->
+
+        <!-- <link rel="stylesheet" href="j_style.css"> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script>
+          $(document).ready(function () {
+            $('.slider').bxSlider();
+          });
+        </script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" style="border: 0 !important; padding: 0 !important; margin: 0 !important;">
+        <style>
+          .mySlides {
+            display: none;
+          }
+        </style>
+  </head>
+  <body>
+  <div class="header">
+    <!--  The menu bar -->
+    <div class="top_screen">
+<div class="row">
+<div class="col-md-2 logo">
+      <img src="./images/logo.png" alt="coffe logo" width="250px" />
+      </div>
+      <div class="col-md-8">
+      <h1 class="title">Stockyard Coffee House</h1>
+      </div>
+      
+      <div class="col-md-2 social_media" >
+        <ul>
+          <li>
+            <a href=""> <i class="fab fa-facebook"></i> </a>
+          </li>
+          <li>
+            
+            <a href=""> <i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""> <i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href=""> <i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      <div class="menu_bar">
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="about.html"> About </a></li>
+          <li><a href="numbers.html"> Numbers </a></li>
+          <li><a href="contact.html"> Contact </a></li>
+        </ul>
+      </div>
+      
+    </div>
+</div>
+<!-- 
+  Banner section and animations for timing will begin now
+ -->
+    <div id="banner_area" class="w3-content w3-section"  style="max-width: 100%;" style="margin: 0px!important;" style="border: none;">
+      <div class="slider"  >
+        <div class="item mySlides"  style="border: 0 !important;" >
+          <img src="./images/large_varity_edit.jpg" width="100vw">
+          <div class="banner_text" id="first">
+            <div class="banner_table">
+              <div class="banner_align">
+                <div class="banner_textarea">
+                  <div class="main_banner">
+                    <h3>Cold Brew </h3>
+                    <p>Read our menu and learn were our coco beans are bought from and how we build the flavor undertones.</p>
+                    <a href="" class="first_but">More Coco</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+       
+        <div class="item mySlides">
+          <img src="./images/logo_coffee_edit.jpg" alt="">
+          <div class="banner_text" id="sec">
+            <div class="banner_table">
+              <div class="banner_align">
+                <div class="banner_textarea">
+                  <div class="main_banner">
+                    <h3>Our Pastries</h3>
+                    <p>View our large menu of pastries that are freshly backed every morining by our crew to ensure you are reciving the best qulaity. </p>
+                    <a href="" class="sec_button">View More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item mySlides">
+          <img src="./images/coffee_beans_edit.jpg" alt="">
+          <div class="banner_text" id="thrid">
+            <div class="banner_table">
+              <div class="banner_align">
+                <div class="banner_textarea">
+                  <div class="main_banner">
+                    <h3>Coco Beans</h3>
+                    <p>Delivered from colombia with powerful undertones in flavor. Try with only creamer for best flavor.</p>
+                    <a href="" class="thrid_but">Collections</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) { myIndex = 1 }
+    x[myIndex - 1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+</script>
+
+  <div id="client_section">
+        <div class="container">
+          <div class="title_5">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Our Different Locations </h2>
+              <p>Going Oversees soon, next locations Mexico, Korea, and England</p>
+            </div>
+          </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="container_4">
+                <img src="./images/LA.jpeg" alt="" class="image_4" style="width:260px">
+                <div class="middle_4">
+                  <div class="text_4">L.A.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="container_3">
+                <img src="./images/New York.jpeg" alt="" class="image_3" style="width:260px">
+                <div class="middle_3">
+                  <div class="text_3">N.Y.</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="container_1">
+                <img src="./images/San.jpeg" alt="" class="image_1" style="width:260px">
+                <div class="middle_1">
+                  <div class="text_1">SAN</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="container_2" >
+                <img src="./images/Chicago.jpeg" alt="" class="image_2" style="width:260px">
+                <div class="middle_2">
+                  <div class="text_2">CHI</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+
+  <!-- 
+  section with 3 images and smallh paragrapgh similar to starbucks will begin right now
+     -->
+  <div class="mini_banner_sec">
+    <div class="space">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="text_about_us">
+              <h2>Fueling our Neighborhood</h2>
+              <p>We have been proud suporters of Bridegport supporting things like our local neigbhood schools. We are proud to announce that 10% for what we make will now be getting donated to the local schools to better th eeducation of our children we encourage you to come and support our coffeshop that will in turn make the Neighborhood a better place. Free coffee will also be available on wednesday.</p>
+              <a class="butt_banner" href="">Read More</a>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="school_img" src="./images/new_sc.jpg" width="300px" alt="">
+          </div>
+          <div class="col-md-4">
+            <img class="owners_img" src="./images/owners.jpg" width="300px" alt="">
+            <img class="bar_img" src="./images/barista1.jpeg" width="250px" alt="">
+          </div>
+        </div>
+        </div>
+  </div>
+
+<!-- 
+Conculsion of the mini banner section menu section will now begin
+ -->
+<div class="menu_options">
+  <img src="./images/Inside.jpg" alt="">
+  <p>This background area will be white and i will come back and code when i figure out how to make a flaoting mneu bar and how to add the food options.</p>
+</div>
+
+ <!--
+
+  will continue to be brain stormed at the moment will be moving on to the location banner because its much easier to start the coding.
+   -->
+
+<div class="locations_directions">
+     <div class="row">
+         <div class="col-md-6">
+           <div class="image_map">
+            <img src="./images/loc.png" width="550px"  alt="">
+           </div>
+           
+         </div>
+         <div class="col-md-3 direction_phone">
+           <h3>Locations and Hours</h3>
+           <p>558 W 37th St. 
+              Chicago, IL 60609, US
+              +1 312-866-5886
+              info@stockyardcoffeehouse.com
+          </p>
+          <img src=".-....." alt="">
+         </div>
+        <div class="col-md-3 hours_open">
+          <ul>
+            <li>Monday 7:30am - 2:00pm</li>
+            <li>Tuesday 7:30am - 2:00pm</li>
+            <li>Wednesday 7:30am - 2:00pm</li>
+            <li>Thursday 7:30am - 2:00pm</li>
+            <li>Friday 7:30am - 2:00pm</li>
+            <li>Saturday 8:00am - 2:00pm</li>
+            <li>Sunday 8:00am - 2:00pm</li>
+
+          </ul>
+        </div>
+       </div>
+    
+   </div>
+
+ 
+
+
+
+
+
+
+
+   
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <p>Copyright&copy;2019</p>
+    <h3><a href="#logo"> Back to Top </a></h3>
+  </body>
+</html>

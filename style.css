@@ -1,0 +1,812 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --main-font: "Libre Baskerville", serif;
+  --secondary-font: "Caveat", cursive;
+  --body-font: "Prata", serif;
+  --dark-black: #272727;
+  --dark-orange-yellow: #d4aa7d;
+  --light-yellow: #efd09e;
+  --light-green: #d2d8b3;
+  --blue: #90a9b7;
+}
+
+html {
+  /* font-family: var(--body-font); */
+  font-size: 10px;
+  /* color: var(--body-font-color); */
+  scroll-behavior: smooth;
+}
+.top_screen .row {
+  border-top: 10px solid var(--dark-black);
+  /* color: var(--blue); */
+}
+.logo {
+  text-align: center;
+  margin-top: 20px;
+  float: left;
+}
+.title {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  color: var(--dark-orange-yellow);
+  font-size: 90px;
+  margin-top: 25px;
+  text-align: center;
+}
+.social_media {
+}
+.social_media ul {
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}
+.social_media ul li {
+  display: inline-block;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  padding: 2px;
+  margin-top: 50px;
+  margin-right: 5px;
+}
+.social_media ul li a {
+  background-color: var(--dark-black);
+  width: 35px;
+  display: block;
+  height: 35px;
+  text-align: center;
+  padding-top: 6px;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: var(--light-green);
+}
+.social_media ul li:hover a {
+  background-color: var(--light-green);
+  color: var(--dark-black);
+}
+
+/* #main_menu .social_area {
+}
+#main_menu .social_area ul {
+  margin: 0;
+  list-style: none;
+  text-align: right;
+}
+#main_menu .social_area ul li {
+  display: inline-block;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+#main_menu .social_area ul li a {
+  background-color: rgb(155, 199, 155);
+  width: 35px;
+  display: block;
+  height: 35px;
+  text-align: center;
+  padding-top: 9px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+#main_menu .social_area ul li a:hover {
+  background-color: #395048;
+} */
+.menu_bar {
+  /* margin-bottom: -20px; */
+  padding: 0;
+}
+.menu_bar ul {
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  background-color: var(--dark-orange-yellow);
+  height: 40px;
+}
+.menu_bar ul li {
+  display: inline-block;
+  /* padding: 4px; */
+  /* margin: 11px; */
+}
+.menu_bar ul li a {
+  background-color: var(--dark-orange-yellow);
+  width: 150px;
+  display: block;
+  text-align: center;
+  transition: 0.5s;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--dark-black);
+  height: 100px;
+  padding-top: 6px;
+  font-family: "Xanh Mono", monospace;
+}
+.menu_bar ul li a:hover {
+  background-color: var(--light-yellow);
+  text-decoration: none;
+}
+
+/* 
+Banner area code with slider and timer animations
+*/
+#banner_area .w3-content .w3-section {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#banner_area .bx-wrapper {
+  margin: 0 !important;
+  border: 0 !important;
+  padding: 0 !important;
+  background-color: var(--dark-orange-yellow) !important;
+}
+#banner_area {
+  /* width: 100vw; */
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#banner_area .item {
+  width: 1349px;
+  overflow: hidden;
+  /* border: solid -40px red; */
+  /* border: 0 !important;
+   */
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#banner_area .item img {
+  width: 1349px;
+  height: auto;
+  border: 0 !important;
+}
+.banner_text {
+  height: 30%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 10%;
+}
+.banner_table {
+  display: table;
+  height: 100%;
+  width: 50%;
+}
+.banner_align {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+.banner_textarea {
+  margin: 0 auto;
+  /* overflow: hidden;
+   */
+  width: 200px;
+}
+.main_banner {
+  float: right;
+  width: 50%;
+}
+/* .bx-wrapper .bx-pager {
+  color: #dd5158;
+  background-color: #dd5158;
+} */
+.main_banner h3 {
+  color: #6e646e;
+}
+.main_banner p {
+  color: black;
+}
+.main_banner a {
+  border-radius: 25px;
+  color: #dd5158;
+  display: inline-block;
+  /* padding: 10px 20px; */
+  padding: 10px;
+  text-decoration: none;
+  /* border-color: black; */
+  z-index: 5;
+  background: burlywood;
+}
+.main_banner a:hover {
+  background-color: #473d48 none repeat scroll 0 0;
+  text-decoration: none;
+}
+
+/* 
+code for logo_coffe cake with coffee adn book picture with text id will be sec
+*/
+#sec .banner_text {
+  top: 0;
+  left: 500px;
+  position: absolute;
+}
+#sec .banner_table {
+  display: table;
+  height: 100%;
+  width: 80%;
+}
+#sec .banner_align {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+#sec .banner_textarea {
+  margin: 0 auto;
+  /* overflow: hidden;
+   */
+  width: 600px;
+}
+#sec .main_banner {
+  float: right;
+  width: 80%;
+}
+/* .bx-wrapper .bx-pager {
+  color: #dd5158;
+  background-color: #dd5158;
+} */
+#sec .main_banner h3 {
+  color: #0e0d0e;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: var(--secondary-font);
+}
+#sec p {
+  color: rgb(20, 19, 19);
+  font-family: var(--body-font);
+  font-weight: 700;
+}
+.sec_button {
+  float: right;
+  background-color: #dd5158;
+  /* z-index: 5; */
+  margin-left: 80px;
+}
+#sec .sec_button a {
+  /* background-color: #dd5158; */
+  border-radius: 25px;
+  color: var(--light-yellow);
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  /* border-color: black; */
+  z-index: 5;
+  background: var(--dark-black);
+  /* float: right; */
+}
+#sec .sec_button:hover {
+  background-color: var(--blue);
+  color: var(--light-green);
+  text-decoration: none;
+}
+
+/* 
+end of code for sec button
+*/
+
+/* 
+start of code for first image button id will be first
+*/
+#first .banner_text {
+  height: 30%;
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  width: 60%;
+}
+#first .banner_table {
+  display: table;
+  height: 100%;
+  width: 80%;
+  margin-top: 350px;
+  margin-left: 620px;
+}
+#first .banner_align {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+#first .banner_textarea {
+  margin: 0 auto;
+  /* overflow: hidden;
+   */
+  width: 400px;
+}
+#first .main_banner {
+  float: right;
+  width: 80%;
+}
+/* .bx-wrapper .bx-pager {
+  color: #dd5158;
+  background-color: #dd5158;
+} */
+#first .main_banner h3 {
+  color: rgb(9, 41, 9);
+  font-size: 35px;
+  font-weight: 600;
+  font-family: var(--secondary-font);
+}
+#first .main_banner p {
+  color: rgb(25, 30, 48);
+  font-family: var(--body-font);
+  font-weight: 700;
+}
+#first .first_but {
+  border-radius: 25px;
+  color: var(--light-green);
+  display: inline-block;
+  /* padding: 10px 20px; */
+  padding: 10px;
+  text-decoration: none;
+  /* border-color: black; */
+  z-index: 5;
+  background: rgb(9, 41, 9);
+}
+#first .first_but:hover {
+  background-color: var(--blue);
+  color: var(--dark-black);
+  text-decoration: none;
+}
+/* 
+End of first image 
+*/
+/* 
+Start of thrid and final button the name and code will thrid but
+*/
+
+#thrid .banner_text {
+  top: 0;
+  position: absolute;
+  right: 0;
+  height: 30%;
+  width: 60%;
+}
+#thrid .banner_table {
+  display: table;
+  height: 100%;
+  width: 80%;
+  margin-left: 940px;
+}
+#thrid .banner_align {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+#thrid .banner_textarea {
+  margin: 0 auto;
+  /* overflow: hidden;
+   */
+  width: 400px;
+}
+#thrid .main_banner {
+  float: right;
+  width: 80%;
+}
+/* .bx-wrapper .bx-pager {
+  color: #dd5158;
+  background-color: #dd5158;
+} */
+#thrid .main_banner h3 {
+  color: var(--light-yellow);
+  font-size: 35px;
+  font-weight: 600;
+  font-family: var(--secondary-font);
+}
+#thrid p {
+  color: rgb(248, 240, 240);
+  font-family: var(--body-font);
+  font-weight: 700;
+}
+.thrid_but {
+  float: right;
+  background-color: var(--light-green);
+  /* z-index: 5; */
+  margin-left: 80px;
+}
+#thrid .thrid_but {
+  /* background-color: #dd5158; */
+  border-radius: 25px;
+  color: var(--dark-black);
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  /* border-color: black; */
+  z-index: 5;
+  background: var(--light-green);
+  /* float: right; */
+}
+#thrid .thrid_but:hover {
+  background-color: var(--dark-black);
+  color: var(--light-green);
+  text-decoration: none;
+}
+
+/* 
+
+Banner section complete !!!
+
+*/
+
+/* 
+client section right above the cities 
+*/
+
+#client_section .title_5 {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+#client_section .title_5 h2 {
+  font-family: "Xanh Mono", monospace;
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--dark-black);
+  text-align: center;
+}
+#client_section .title_5 p {
+  font-family: var(--body-font);
+  font-size: 20px;
+  color: rgb(29, 68, 29);
+  font-weight: 800;
+  text-align: center;
+}
+
+/* 
+Our different locations and cities 
+*/
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/* 
+last image exp
+*/
+.container_1 {
+  position: relative;
+  width: 50%;
+}
+
+.container_1 .image_1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle_1 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container_1:hover .image_1 {
+  opacity: 0.3;
+}
+
+.container_1:hover .middle_1 {
+  opacity: 1;
+}
+
+.text_1 {
+  /* background-color: #2e362e; */
+  color: var(--dark-black);
+  font-size: 30px;
+  padding: 16px 32px;
+  font-style: var(--body-font);
+  font-weight: 800;
+}
+
+/* 
+Image 2
+*/
+.container_2 {
+  position: relative;
+  width: 50%;
+}
+
+.container_2 .image_2 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle_2 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container_2:hover .image_2 {
+  opacity: 0.3;
+}
+
+.container_2:hover .middle_2 {
+  opacity: 1;
+}
+
+.text_2 {
+  /* background-color: #2e362e; */
+  color: var(--dark-black);
+  font-size: 30px;
+  padding: 16px 32px;
+  font-style: var(--body-font);
+  font-weight: 800;
+}
+/* 
+Image 3
+*/
+.container_3 {
+  position: relative;
+  width: 50%;
+}
+
+.container_3 .image_3 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle_3 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container_3:hover .image_3 {
+  opacity: 0.3;
+}
+
+.container_3:hover .middle_3 {
+  opacity: 1;
+}
+
+.text_3 {
+  /* background-color: #2e362e; */
+  color: var(--dark-black);
+  font-size: 30px;
+  padding: 16px 32px;
+  font-style: var(--body-font);
+  font-weight: 800;
+}
+/* 
+Image 4 last image 
+*/
+
+.container_4 {
+  position: relative;
+  width: 50%;
+  padding-bottom: 60px;
+}
+
+.container_4 .image_4 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle_4 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 35%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container_4:hover .image_4 {
+  opacity: 0.3;
+}
+
+.container_4:hover .middle_4 {
+  opacity: 1;
+}
+
+.text_4 {
+  /* background-color: #2e362e; */
+  color: var(--dark-black);
+  font-size: 30px;
+  padding: 16px 32px;
+  font-weight: 800;
+  font-style: var(--body-font);
+}
+
+/* 
+section with the 3 images adn small paragraoh other wise known as mini_banner_Sec
+*/
+
+#client_section {
+  margin-bottom: 0;
+  border-bottom: 5px solid var(--light-yellow);
+}
+
+/* 
+mini banner section with information baout whta they are doing to help the community
+*/
+
+.mini_banner_sec {
+  margin-top: 0;
+  padding: 0;
+  background-color: var(--dark-orange-yellow);
+}
+
+.text_about_us {
+  padding-left: 15px;
+  padding-top: 15px;
+  float: right;
+}
+.text_about_us h2 {
+  font-size: 33px;
+  font-weight: 500;
+  color: var(--dark-black);
+  font-family: var(--main-font);
+}
+.text_about_us p {
+  padding-top: 10px;
+  font-size: 14px;
+  color: rgb(30, 63, 30);
+  padding-bottom: 8px;
+}
+.butt_banner {
+  font-size: 15px;
+  padding: 10px;
+  /* border-radius: 30%; */
+  width: 40px;
+  border-radius: 25px;
+  color: var(--light-yellow);
+  text-decoration: none;
+  /* border-color: black; */
+  background: var(--dark-black);
+  /* float: right; */
+  transition: 0.5s;
+}
+.butt_banner:hover {
+  background-color: grey;
+  color: var(--light-green);
+  text-decoration: none;
+}
+
+.school_img {
+  padding-top: 80px;
+}
+
+.owners_img {
+  padding-top: 20px;
+  float: left;
+}
+
+.bar_img {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-left: 40px;
+}
+/* 
+This will be the section for the menu 
+*/
+
+/* 
+Dont know how to make the menu yet and i will come back when ready
+*/
+
+/* 
+For now the section with th elocations and directions iwll start
+*/
+
+.locations_directions {
+  margin: 0;
+  padding: 0;
+  background-color: var(--light-green);
+  height: 100vh;
+  /* width: 100vh; */
+  /* this does not cover the hwole page only half */
+}
+.locations_directions .mini_banner_sec2 {
+  width: 100%;
+}
+.image_map {
+  margin-top: 100px;
+}
+.image_map img {
+  float: right;
+}
+.direction_phone {
+  margin-top: 120px;
+  float: left;
+  /* padding-right: 20px; */
+}
+.direction_phone h3 {
+  font-family: "Mountains of Christmas", cursive;
+  color: var(--dark-black);
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.direction_phone p {
+  font-family: var(--dark-black);
+  font-size: 15px;
+}
+.hours_open {
+  margin-top: 140px;
+  float: left;
+}
+.hours_open ul {
+  list-style: none;
+}
