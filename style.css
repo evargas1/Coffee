@@ -810,3 +810,84 @@ For now the section with th elocations and directions iwll start
 .hours_open ul {
   list-style: none;
 }
+/* 
+Footer Section
+*/
+
+/* 
+Footer Section 
+*/
+#footer_section {
+  background-color: #395048;
+  padding: 40px 0 0;
+  width: 100%;
+  clear: both;
+  border-top: 10px solid #916a55;
+  /* color: #633822; */
+}
+#footer_section .child_footer {
+  width: 100%;
+  clear: both;
+  margin-bottom: 20px;
+}
+#footer_section .child_footer h2.title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+#footer_section .child_footer p {
+  font-size: 14px;
+  text-transform: none;
+}
+#footer_section .child_footer a {
+  color: rgb(155, 199, 155);
+  transition: 0.5s;
+}
+#footer_section .child_footer a:hover {
+  text-decoration: none;
+  color: #6d8e9c;
+}
+#footer_section .child_footer ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+}
+#footer_section .child_footer ul li {
+  padding: 5px o;
+  border-bottom: 1px solid #6d8e9c;
+}
+#footer_section .child_footer ul li a {
+  color: #fafaf9;
+  text-decoration: none;
+}
+#footer_section .child_footer ul li a:hover {
+  text-decoration: none;
+  color: #6d8e9c;
+}
+#footer_section .child_footer input {
+  width: 100%;
+  background-color: #6d8e9c;
+  border: 1px solid #6d8e9c;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+#footer_section .child_footer input[type="submit"] {
+  background-color: #a88975;
+  width: 150px;
+  border: 1px solid #a88975;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  color: #fafaf9;
+}
+#footer_section .child_footer input[type="submit"]:hover {
+  background-color: #916a55;
+  border: 1px solid #916a55;
+  color: #395048;
+}
+#footer_section .col-md-12 {
+  margin-top: 20px;
+  padding: 20px 0 0;
+  text-align: center;
+}
