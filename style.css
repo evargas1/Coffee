@@ -762,10 +762,46 @@ mini banner section with information baout whta they are doing to help the commu
 This will be the section for the menu 
 */
 
-/* 
-Dont know how to make the menu yet and i will come back when ready
-*/
+.menu_options img {
+  float: right;
+}
+.menu_options h2 {
+  margin-left: 90px;
+  font-size: 30px;
+  margin-top: 90px;
+  font-weight: 700;
+  color: var(--dark-black);
+  font-family: "Xanh Mono", monospace;
+}
+.menu_options p {
+  margin-top: 30px;
+  margin-right: 200px;
+  margin-left: 90px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
 
+.menu_options a {
+  font-family: "Xanh Mono", monospace;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--dark-black);
+  background-color: var(--dark-orange-yellow);
+  text-decoration: none;
+  transition: 0.5s;
+  margin-left: 90px;
+  border: 2px solid var(--dark-orange-yellow);
+  padding: 5px;
+}
+.menu_options a:hover {
+  background-color: var(--light-yellow);
+  color: var(--dark-black);
+  border: 2px solid var(--light-yellow);
+}
+
+/* hoover  */
 /* 
 For now the section with th elocations and directions iwll start
 */
