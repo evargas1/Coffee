@@ -17,6 +17,11 @@
   --light-yellow: #efd09e;
   --light-green: #d2d8b3;
   --blue: #90a9b7;
+  --off-white: #e5d6a8;
+  --off-yellow: #dcb468;
+  --off-green: #7e7c3d;
+  --off-brown: #3f332a;
+  --off-red: #72322f;
 }
 
 html {
@@ -937,7 +942,77 @@ Footer Section
 This will be code for the numbers/menu page
 */
 /* ------------------------- */
+.overlay-img{
+    background-image: url(./images/new_banner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.container-open{
 
+}
+.title-info{
+  width: 600px;
+  float: right;
+  background-color: var(--off-red);
+  margin-top: 15rem;
+  margin-right: 10rem;
+  padding: 25px;
+ opacity: 0.9;
+  
+}
+.title-info h2{
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 50px;
+  opacity: 1;
+  color: var(--off-white);
+}
+.title-info p{
+  font-size: 13px;
+  font-weight: 30;
+  opacity: 1;
+  color: var(--off-white);
+}
+.social-media-right {
+  float: right;
+}
+.social-media-right ul {
+  margin: 0;
+  list-style: none;
+  float: right;
+  margin-right: 20px;
+}
+.social-media-right ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.social-media-right ul li a {
+  background-color: var(--off-white);
+  width: 40px;
+  display: block;
+  height: 40px;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 50%;
+  transition: 0.5s;
+  color: var(--off-green);
+}
+.social-media-right ul li:hover a {
+  background-color: var(--off-red);
+  color: var(--off-yellow);
+}
+.hover-menu-bar{
+  background-color: var(--off-white);
+  width: 40px;
+ padding-left: 6px;
+ opacity: 0.8;
+ margin-left: 15px;
+  
+}
 .sidenav {
   height: 100%;
   width: 0;
@@ -945,7 +1020,7 @@ This will be code for the numbers/menu page
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: var(--off-white);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -955,13 +1030,13 @@ This will be code for the numbers/menu page
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: var(--off-green);
   display: block;
   transition: 0.3s;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: var(--off-brown);
 }
 
 .sidenav .closebtn {
