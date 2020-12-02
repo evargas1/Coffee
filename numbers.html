@@ -9,9 +9,13 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<header>
     <div class="overlay-img">
     <div class="row">
         <div class="col-md-6">
@@ -53,17 +57,15 @@
             </div>
             
         </div>
+
+<!-- this is the small banner section with opacity of 0.8 has the title and a small lorem text color:red -->
     
     <div class="title-info">
         <h2>Our Menu</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nesciunt doloribus libero sed porro incidunt
-            architecto accusantium soluta. Aspernatur, consectetur facilis. Quos quas ducimus reprehenderit quia
-            exercitationem voluptatibus, illum molestiae itaque nulla nesciunt praesentium fugit reiciendis officiis neque
-            obcaecati eum! </p>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, fuga illum? Officiis impedit minus doloribus assumenda eveniet repudiandae veniam aut aliquam at cumque! Temporibus sint placeat porro blanditiis nemo atque necessitatibus deserunt vero facere magnam laudantium dicta nam excepturi amet asperiores veniam mollitia, voluptatibus praesentium modi iure quis odit! Blanditiis?</p>
             </div>
-     
     </div>
-    
+<!-- This is the javascript that ensures the menu button and X button will work properly -->
     <script>
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
@@ -73,6 +75,73 @@
             document.getElementById("mySidenav").style.width = "0";
         }
     </script>
+</header>
+<body> 
+<!-- this banner code was a pain in my but taught me the importance of using divs in a good efective order -->
+<div class="section-with-menu">
+    <section data-spy="scroll" data-target=".navbar" data-offset="50">
+    
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">Section 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Section 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Section 3</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Section 4
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#section41">Link 1</a>
+                        <a class="dropdown-item" href="#section42">Link 2</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    
+        <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+            <h1>Section 1</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+                look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+                look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+            <h1>Section 2</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+                look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+                look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+            <h1>Section 3</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+                look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+                look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="section41" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
+            <h1>Section 4 Submenu 1</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+                look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+                look at the navigation bar while scrolling!</p>
+        </div>
+        <div id="section42" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
+            <h1>Section 4 Submenu 2</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+                look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and
+                look at the navigation bar while scrolling!</p>
+        </div>
+    </section>
+</div>
+    
 
 </body>
 </html>

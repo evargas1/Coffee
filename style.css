@@ -1050,3 +1050,10 @@ This will be code for the numbers/menu page
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+
+  /* 
+  This will now be the Beggining to the menu table 
+  */
+.section-with-menu{
+  position: relative;
+}
