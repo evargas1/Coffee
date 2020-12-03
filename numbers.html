@@ -91,46 +91,103 @@ for (i = 0; i < coll.length; i++) {
 <!-- 
 Menu section will begin now 
  -->
+ <div class="new-section-menu">
+ <div class="row"></div>
+<div class="col-md-6">
 <div class="section-with-menu">
-    <p>Collapsible Set:</p>
-    <button type="button" class="collapsible">Open Section 1</button>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
+    
+    <h2>Regualar Dark Coffee</h2>
+    <button onclick="document.getElementById('id01').style.display='block'">View More</button>
+    
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="container">
+                <h1>Delete Account</h1>
+                <p>Are you sure you want to delete your account?</p>
+    
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                        class="cancelbtn">Close</button>
+                </div>
+            </div>
+        </form>
     </div>
-    <button type="button" class="collapsible">Open Section 2</button>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
     </div>
-    <button type="button" class="collapsible">Open Section 3</button>
-    <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.
-            <img src="./images/chai latte.jpeg" alt="">
-        </p>
+    <!-- second button for the frist column  -->
+    <div class="section-with-menu">
+    
+        <h2>This will start the menu section with a little bit of bootstrap</h2>
+        <button onclick="document.getElementById('id02').style.display='block'">View More</button>
+    
+        <div id="id02" class="modal">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1>Star Your accoont</h1>
+                    <p>account?</p>
+                    <img src="./images/chai latte.jpeg" width="100px" alt="">
+    
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                            class="cancelbtn">Cancel This page</button>
+                        
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
-
+        <!-- thrid button for the frist column  -->
+        <div class="section-with-menu">
+        
+            <h2>This will start the menu section with a little bit of bootstrap</h2>
+            <button onclick="document.getElementById('id01').style.display='block'">Open Modal</button>
+        
+            <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+                <form class="modal-content" action="/action_page.php">
+                    <div class="container">
+                        <h1>Delete Account</h1>
+                        <p>Are you sure you want to delete your account?</p>
+        
+                        <div class="clearfix">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                class="cancelbtn">Cancel</button>
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                class="deletebtn">Delete</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
 </div>
-    <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
+<!--This will be the second section second half  -->
+<div class="col-md-6"></div>
+<div class="section-with-menu">
+    
+        <h2>This will start the menu section with a little bit of bootstrap</h2>
+        <button onclick="document.getElementById('id01').style.display='block'">Open Modal</button>
 
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                    content.style.display = "none";
-                } else {
-                    content.style.display = "block";
-                }
-            });
-        }
-    </script>
+        <div id="id01" class="modal">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+                title="Close Modal">×</span>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1>Delete Account</h1>
+                    <p>Are you sure you want to delete your account?</p>
 
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                            class="cancelbtn">Cancel</button>
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                            class="deletebtn">Delete</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+ </div>
+
+<!-- End of menu section -->
 </body>
 </html>
