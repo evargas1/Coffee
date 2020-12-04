@@ -942,8 +942,8 @@ Footer Section
 This will be code for the numbers/menu page
 */
 /* ------------------------- */
-.overlay-img{
-    background-image: url(./images/new_banner.jpeg);
+.overlay-img {
+  background-image: url(./images/new_banner.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -951,27 +951,25 @@ This will be code for the numbers/menu page
   margin: 0;
   padding: 0;
 }
-.container-open{
-
+.container-open {
 }
-.title-info{
+.title-info {
   width: 600px;
   float: right;
   background-color: var(--off-red);
   margin-top: 15rem;
   margin-right: 10rem;
   padding: 25px;
- opacity: 0.9;
-  
+  opacity: 0.9;
 }
-.title-info h2{
+.title-info h2 {
   font-family: var(--secondary-font);
   font-weight: 500;
   font-size: 50px;
   opacity: 1;
   color: var(--off-white);
 }
-.title-info p{
+.title-info p {
   font-size: 13px;
   font-weight: 30;
   opacity: 1;
@@ -1005,16 +1003,15 @@ This will be code for the numbers/menu page
   background-color: var(--off-red);
   color: var(--off-yellow);
 }
-.hover-menu-bar{
+.hover-menu-bar {
   background-color: var(--off-white);
   width: 40px;
- padding-left: 6px;
- opacity: 0.8;
- margin-left: 15px;
-  
+  padding-left: 6px;
+  opacity: 0.8;
+  margin-left: 15px;
 }
 .sidenav {
-  height: 100%;
+  height: 100vh;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -1048,18 +1045,25 @@ This will be code for the numbers/menu page
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
 
-  /* 
+/* 
   This will now be the Beggining to the menu table 
   */
 
-.section-with-menu {box-sizing: border-box;}
+.section-with-menu {
+  box-sizing: border-box;
+}
 
 /* Set a style for all buttons */
 button {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -1070,11 +1074,11 @@ button {
 }
 
 button:hover {
-  opacity:1;
+  opacity: 1;
 }
 
 /* Float cancel and delete buttons and add an equal width */
-.cancelbtn{
+.cancelbtn {
   float: left;
   width: 50%;
 }
@@ -1084,7 +1088,6 @@ button:hover {
   background-color: #ccc;
   color: black;
 }
-
 
 /* Add padding and center-align text to the container */
 .container {
@@ -1099,8 +1102,8 @@ button:hover {
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: #474e5d;
   padding-top: 50px;
@@ -1119,7 +1122,7 @@ hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
- 
+
 /* The Modal Close Button (x) */
 .close {
   position: absolute;
@@ -1145,7 +1148,11 @@ hr {
 
 /* Change styles for cancel button and delete button on extra small screens */
 @media screen and (max-width: 300px) {
-  .cancelbtn, .deletebtn {
-     width: 100%;
+  .cancelbtn,
+  .deletebtn {
+    width: 100vw;
   }
+}
+.new-section-menu {
+  padding-top: 400px;
 }

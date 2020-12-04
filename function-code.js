@@ -1,4 +1,12 @@
-        // Get the modal
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+       
         var modal = document.getElementById('id01');
 
         // When the user clicks anywhere outside of the modal, close it

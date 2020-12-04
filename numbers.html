@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=h1, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Numbers</title>
     <script src="https://kit.fontawesome.com/88ea6b8356.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
@@ -13,7 +13,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="function-code.js">
 </head>
+<body>
 
 <header>
     <div class="overlay-img">
@@ -31,7 +33,7 @@
                 <a href="./contact.html">Contact</a>
             </div>
             
-            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             </div>
             </div>
         </div>
@@ -57,36 +59,31 @@
             </div>
             
         </div>
+    
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
 
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
 <!-- this is the small banner section with opacity of 0.8 has the title and a small lorem text color:red -->
     
     <div class="title-info">
         <h2>Our Menu</h2>
         <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, fuga illum? Officiis impedit minus doloribus assumenda eveniet repudiandae veniam aut aliquam at cumque! Temporibus sint placeat porro blanditiis nemo atque necessitatibus deserunt vero facere magnam laudantium dicta nam excepturi amet asperiores veniam mollitia, voluptatibus praesentium modi iure quis odit! Blanditiis?</p>
-            </div>
     </div>
+</div>
 <!-- This is the javascript that ensures the menu button and X button will work properly -->
-    <script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
+ 
 </header>
-<body> 
 
 <!-- this banner code was a pain in my but taught me the importance of using divs in a good efective order -->
-
+<div class="in-between-sect">
+    <p>Hello section</p>
+</div>
 
 <!-- 
 Menu section will begin now 
@@ -96,15 +93,25 @@ Menu section will begin now
 <div class="col-md-6">
 <div class="section-with-menu">
     
-    <h2>Regualar Dark Coffee</h2>
+    <h2 class="same-main-title">Regualar Dark Coffee</h2>
+    <p>12oz ............... $2.00</p>
+    <p>16oz ............... $2.75</p>
     <button onclick="document.getElementById('id01').style.display='block'">View More</button>
     
     <div id="id01" class="modal">
         <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
         <form class="modal-content" action="/action_page.php">
             <div class="container">
-                <h1>Delete Account</h1>
-                <p>Are you sure you want to delete your account?</p>
+                <h1>Regualar Dark Coffee</h1>
+                <p>Dark roast coffee is a dark brown color and often has an oily surface. These coffees have a low acidity, heavy body, and
+                tend to reveal deeper, darker flavors. Coffees roasted to this level tend to not have many of their origin
+                characteristics left, but that doesn’t mean that these are bland and boring.</p>
+                <ul>
+                    <li>Calories: 4.7 in a regual 8oz cup of coffee</li>
+                    <li>Calories: 56.6 for a coffee with cream and sugar</li>
+                    <li>To reap the benefits of coffee faster drink it black</li>
+                </ul>
+                <img src="./images/black_coffee.jpeg" width="200px" alt="">
     
                 <div class="clearfix">
                     <button type="button" onclick="document.getElementById('id01').style.display='none'"
@@ -117,7 +124,7 @@ Menu section will begin now
     <!-- second button for the frist column  -->
     <div class="section-with-menu">
     
-        <h2>This will start the menu section with a little bit of bootstrap</h2>
+        <h2>Americano</h2>
         <button onclick="document.getElementById('id02').style.display='block'">View More</button>
     
         <div id="id02" class="modal">
@@ -126,7 +133,7 @@ Menu section will begin now
                 <div class="container">
                     <h1>Star Your accoont</h1>
                     <p>account?</p>
-                    <img src="./images/chai latte.jpeg" width="100px" alt="">
+                    <img src="./images/americano.jpeg" width="200px" alt="">
     
                     <div class="clearfix">
                         <button type="button" onclick="document.getElementById('id02').style.display='none'"
