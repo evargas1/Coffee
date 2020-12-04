@@ -89,8 +89,11 @@
 Menu section will begin now 
  -->
  <div class="new-section-menu">
- <div class="row"></div>
+ <div class="row">
 <div class="col-md-6">
+    <!-- 
+        1
+    -->
 <div class="section-with-menu">
     
     <h2 class="same-main-title">Regualar Dark Coffee</h2>
@@ -121,62 +124,258 @@ Menu section will begin now
         </form>
     </div>
     </div>
+    <!-- 
+        2
+     -->
     <!-- second button for the frist column  -->
     <div class="section-with-menu">
     
         <h2>Americano</h2>
+        <p>12oz ............... $2.50</p>
+        <p>16oz ............... $3.25</p>
         <button onclick="document.getElementById('id02').style.display='block'">View More</button>
     
         <div id="id02" class="modal">
             <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
             <form class="modal-content" action="/action_page.php">
                 <div class="container">
-                    <h1>Star Your accoont</h1>
-                    <p>account?</p>
+                    <h1>Americano</h1>
+                    <p>The term "Americano" means "American", and derives from American Spanish, dating to the 1970s,or from Italy. The term "caffè Americano" specifically is Italian for "American coffee". There is a popular, but unconfirmed, belief
+                    that the name has its origins in World War II when American G.I.s in Italy would dilute espresso with hot water to approximate the coffee to which they were accustomed.</p>
+                    <ul>
+                        <li>Calories: 2.3 in a regual 8oz cup</li>
+                        <li>Calories: 12.7 for a coffee with cream and sugar</li>
+                        <li>During World war II American soliders perfered their coffee with warm water and the Italians perfered Esspresso so they met halfway.</li>
+                    </ul>
                     <img src="./images/americano.jpeg" width="200px" alt="">
     
                     <div class="clearfix">
                         <button type="button" onclick="document.getElementById('id02').style.display='none'"
-                            class="cancelbtn">Cancel This page</button>
+                            class="cancelbtn">Close</button>
                         
                     </div>
                 </div>
             </form>
         </div>
     </div>
+    <!-- 
+        3
+     -->
         <!-- thrid button for the frist column  -->
         <div class="section-with-menu">
         
-            <h2>This will start the menu section with a little bit of bootstrap</h2>
-            <button onclick="document.getElementById('id01').style.display='block'">Open Modal</button>
+            <h2>Cappucino</h2>
+            <p>12oz ............... $3.25</p>
+            <p>16oz ............... $4.15</p>
+            <button onclick="document.getElementById('id03').style.display='block'">View More</button>
         
-            <div id="id01" class="modal">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+            <div id="id03" class="modal">
+                <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">×</span>
                 <form class="modal-content" action="/action_page.php">
                     <div class="container">
-                        <h1>Delete Account</h1>
-                        <p>Are you sure you want to delete your account?</p>
+                        <h1>Cappucino</h1>
+                        <p>A cappuccino is an espresso-based coffee drink that originated in Italy, and is traditionally prepared with steamed milk
+                        foam (microfoam). Variations of the drink involve the use of cream instead of milk, using non-dairy milks, and flavoring
+                        with cinnamon or chocolate powder. It provides various psychological health benefits such as mind stimulation and mental alertness.</p>
+                        <ul>
+                            <li>Calories: 74 in a regual 8oz cup</li>
+                            <li>Calories: 200 for a coffee with cream and sugar</li>
+                            <li>It has antioxidant properties that help to prevent skin problems and memory loss.</li>
+                        </ul>
+                        <img src="./images/capuccino.jpeg" width="200px" alt="">
         
                         <div class="clearfix">
-                            <button type="button" onclick="document.getElementById('id01').style.display='none'"
-                                class="cancelbtn">Cancel</button>
-                            <button type="button" onclick="document.getElementById('id01').style.display='none'"
-                                class="deletebtn">Delete</button>
+                            <button type="button" onclick="document.getElementById('id03').style.display='none'"
+                                class="cancelbtn">Close</button>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
+        <!-- 
+            4
+         -->
+    <!-- Fourth button for the frist column  -->
+    <div class="section-with-menu">
+        <h2>Cortado</h2>
+        <p>12oz ............... $3.25</p>
+        <p>16oz ............... $4.15</p>
+        <button onclick="document.getElementById('id04').style.display='block'">View More</button>
+        
+        <div id="id04" class="modal">
+            <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1>Cortado</h1>
+                    <p>A cortado is a beverage consisting of espresso mixed with a drizzle of warm milk to soften the taste and reduce the degree of bitterness of the coffee. The milk in a cortado is steamed, but not frothy and "texturized" as in many Italian
+                    coffee drinks. The word cortado is the past participle of the Spanish verb cortar (to cut), in the sense of "dilute", and can refer variously to either coffee or espresso drinks throughout Spanish and Portuguese speaking countries.</p>
+                    <ul>
+                        <li>Calories: 16 in a regual 8oz cup</li>
+                        <li>Calories: 28 for a coffee with cream and sugar</li>
+                        <li>Most famous amoungst Hispiancis and catering to them is important becuse they consume the largest amounts of coffee in the word</li>
+                    </ul>
+                    <img src="./images/cortado.jpeg" alt="">
+        
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id04').style.display='none'"
+                            class="cancelbtn">Close</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- 
+        5
+     -->
+    <!-- Fifth button for the frist column  -->
+    <div class="section-with-menu">
+        <h2>Espresso Shot</h2>
+        <p>$2.50</p>
+        <button onclick="document.getElementById('id05').style.display='block'">View More</button>
+    
+        <div id="id05" class="modal">
+            <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1>Classic Espresso Shot</h1>
+                    <p>Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling water is forced under 9–10 bars of atmospheric pressure through finely-ground coffee beans. Espresso coffee can be made with a wide variety of coffee beans and roast degrees. Espresso is generally thicker than coffee brewed by other methods, with a viscosity of
+                    warm honey.</p>
+                    <ul>
+                        <li>Calories: 74 in a regual 8oz cup</li>
+                        <li>Calories: 200 for a coffee with cream and sugar</li>
+                        <li>It has antioxidant properties that help to prevent skin problems and memory loss.</li>
+                    </ul>
+                    <img src="./images/espresso.jpeg" alt="">
+    
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id05').style.display='none'"
+                            class="cancelbtn">Close</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- 
+        6
+     -->
+    <!-- sixith button for the frist column  -->
+    <div class="section-with-menu">
+        <h2>Cappucino</h2>
+        <p>12oz ............... $3.25</p>
+        <p>16oz ............... $4.15</p>
+        <button onclick="document.getElementById('id06').style.display='block'">View More</button>
+    
+        <div id="id06" class="modal">
+            <span onclick="document.getElementById('id06').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1>Cappucino</h1>
+                    <p>A cappuccino is an espresso-based coffee drink that originated in Italy, and is traditionally
+                        prepared with steamed milk
+                        foam (microfoam). Variations of the drink involve the use of cream instead of milk, using non-dairy
+                        milks, and flavoring
+                        with cinnamon or chocolate powder. It provides various psychological health benefits such as mind
+                        stimulation and mental alertness.</p>
+                    <ul>
+                        <li>Calories: 74 in a regual 8oz cup</li>
+                        <li>Calories: 200 for a coffee with cream and sugar</li>
+                        <li>It has antioxidant properties that help to prevent skin problems and memory loss.</li>
+                    </ul>
+                    <img src="./images/capuccino.jpeg" alt="">
+    
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id06').style.display='none'"
+                            class="cancelbtn">Close</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- 
+        7
+     -->
+    <!-- seventh button for the frist column  -->
+    <div class="section-with-menu">
+        <h2>Cappucino</h2>
+        <p>12oz ............... $3.25</p>
+        <p>16oz ............... $4.15</p>
+        <button onclick="document.getElementById('id07').style.display='block'">View More</button>
+    
+        <div id="id07" class="modal">
+            <span onclick="document.getElementById('id07').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1>Cappucino</h1>
+                    <p>A cappuccino is an espresso-based coffee drink that originated in Italy, and is traditionally
+                        prepared with steamed milk
+                        foam (microfoam). Variations of the drink involve the use of cream instead of milk, using non-dairy
+                        milks, and flavoring
+                        with cinnamon or chocolate powder. It provides various psychological health benefits such as mind
+                        stimulation and mental alertness.</p>
+                    <ul>
+                        <li>Calories: 74 in a regual 8oz cup</li>
+                        <li>Calories: 200 for a coffee with cream and sugar</li>
+                        <li>It has antioxidant properties that help to prevent skin problems and memory loss.</li>
+                    </ul>
+                    <img src="./images/capuccino.jpeg" alt="">
+    
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id07').style.display='none'"
+                            class="cancelbtn">Close</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- 
+        8
+     -->
+    <!-- eighith button for the frist column  -->
+    <div class="section-with-menu">
+        <h2>Cappucino</h2>
+        <p>12oz ............... $3.25</p>
+        <p>16oz ............... $4.15</p>
+        <button onclick="document.getElementById('id08').style.display='block'">View More</button>
+    
+        <div id="id08" class="modal">
+            <span onclick="document.getElementById('id08').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1>Cappucino</h1>
+                    <p>A cappuccino is an espresso-based coffee drink that originated in Italy, and is traditionally
+                        prepared with steamed milk
+                        foam (microfoam). Variations of the drink involve the use of cream instead of milk, using non-dairy
+                        milks, and flavoring
+                        with cinnamon or chocolate powder. It provides various psychological health benefits such as mind
+                        stimulation and mental alertness.</p>
+                    <ul>
+                        <li>Calories: 74 in a regual 8oz cup</li>
+                        <li>Calories: 200 for a coffee with cream and sugar</li>
+                        <li>It has antioxidant properties that help to prevent skin problems and memory loss.</li>
+                    </ul>
+                    <img src="./images/capuccino.jpeg" alt="">
+    
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id08').style.display='none'"
+                            class="cancelbtn">Close</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
-<!--This will be the second section second half  -->
-<div class="col-md-6"></div>
+<!-- 
+    9
+ -->
+<!--This will be the second column first button  -->
+<div class="col-md-6">
 <div class="section-with-menu">
     
         <h2>This will start the menu section with a little bit of bootstrap</h2>
-        <button onclick="document.getElementById('id01').style.display='block'">Open Modal</button>
+        <button onclick="document.getElementById('id09').style.display='block'">Open Modal</button>
 
-        <div id="id01" class="modal">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+        <div id="id09" class="modal">
+            <span onclick="document.getElementById('id09').style.display='none'" class="close"
                 title="Close Modal">×</span>
             <form class="modal-content" action="/action_page.php">
                 <div class="container">
@@ -184,16 +383,272 @@ Menu section will begin now
                     <p>Are you sure you want to delete your account?</p>
 
                     <div class="clearfix">
-                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                        <button type="button" onclick="document.getElementById('id09').style.display='none'"
                             class="cancelbtn">Cancel</button>
-                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                        <button type="button" onclick="document.getElementById('id09').style.display='none'"
                             class="deletebtn">Delete</button>
                     </div>
                 </div>
             </form>
         </div>
     </div>
+    </div>
+    <!-- 
+        10
+     -->
+<!-- This will be the second column second button -->
+<div class="section-with-menu">
+
+    <h2 class="same-main-title">Regualar Dark Coffee</h2>
+    <p>12oz ............... $2.00</p>
+    <p>16oz ............... $2.75</p>
+    <button onclick="document.getElementById('id010').style.display='block'">View More</button>
+
+    <div id="id010" class="modal">
+        <span onclick="document.getElementById('id010').style.display='none'" class="close" title="Close Modal">×</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="container">
+                <h1>Regualar Dark Coffee</h1>
+                <p>Dark roast coffee is a dark brown color and often has an oily surface. These coffees have a low
+                    acidity, heavy body, and
+                    tend to reveal deeper, darker flavors. Coffees roasted to this level tend to not have many of their
+                    origin
+                    characteristics left, but that doesn’t mean that these are bland and boring.</p>
+                <ul>
+                    <li>Calories: 4.7 in a regual 8oz cup of coffee</li>
+                    <li>Calories: 56.6 for a coffee with cream and sugar</li>
+                    <li>To reap the benefits of coffee faster drink it black</li>
+                </ul>
+                <img src="./images/black_coffee.jpeg" width="200px" alt="">
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id010').style.display='none'"
+                        class="cancelbtn">Close</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- 
+    11
+ -->
+<!-- This will be second column thrid button -->
+<div class="section-with-menu">
+
+    <h2 class="same-main-title">Regualar Dark Coffee</h2>
+    <p>12oz ............... $2.00</p>
+    <p>16oz ............... $2.75</p>
+    <button onclick="document.getElementById('id011').style.display='block'">View More</button>
+
+    <div id="id011" class="modal">
+        <span onclick="document.getElementById('id011').style.display='none'" class="close" title="Close Modal">×</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="container">
+                <h1>Regualar Dark Coffee</h1>
+                <p>Dark roast coffee is a dark brown color and often has an oily surface. These coffees have a low
+                    acidity, heavy body, and
+                    tend to reveal deeper, darker flavors. Coffees roasted to this level tend to not have many of their
+                    origin
+                    characteristics left, but that doesn’t mean that these are bland and boring.</p>
+                <ul>
+                    <li>Calories: 4.7 in a regual 8oz cup of coffee</li>
+                    <li>Calories: 56.6 for a coffee with cream and sugar</li>
+                    <li>To reap the benefits of coffee faster drink it black</li>
+                </ul>
+                <img src="./images/black_coffee.jpeg" width="200px" alt="">
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id011').style.display='none'"
+                        class="cancelbtn">Close</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- 
+    12
+ -->
+<!-- this will be second column fourth button -->
+<div class="section-with-menu">
+
+    <h2 class="same-main-title">Regualar Dark Coffee</h2>
+    <p>12oz ............... $2.00</p>
+    <p>16oz ............... $2.75</p>
+    <button onclick="document.getElementById('id012').style.display='block'">View More</button>
+
+    <div id="id012" class="modal">
+        <span onclick="document.getElementById('id012').style.display='none'" class="close" title="Close Modal">×</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="container">
+                <h1>Regualar Dark Coffee</h1>
+                <p>Dark roast coffee is a dark brown color and often has an oily surface. These coffees have a low
+                    acidity, heavy body, and
+                    tend to reveal deeper, darker flavors. Coffees roasted to this level tend to not have many of their
+                    origin
+                    characteristics left, but that doesn’t mean that these are bland and boring.</p>
+                <ul>
+                    <li>Calories: 4.7 in a regual 8oz cup of coffee</li>
+                    <li>Calories: 56.6 for a coffee with cream and sugar</li>
+                    <li>To reap the benefits of coffee faster drink it black</li>
+                </ul>
+                <img src="./images/black_coffee.jpeg" width="200px" alt="">
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id012').style.display='none'"
+                        class="cancelbtn">Close</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- 
+    13
+ -->
+<!-- this will be second column fifth button -->
+<div class="section-with-menu">
+
+    <h2 class="same-main-title">Regualar Dark Coffee</h2>
+    <p>12oz ............... $2.00</p>
+    <p>16oz ............... $2.75</p>
+    <button onclick="document.getElementById('id013').style.display='block'">View More</button>
+
+    <div id="id013" class="modal">
+        <span onclick="document.getElementById('id013').style.display='none'" class="close" title="Close Modal">×</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="container">
+                <h1>Regualar Dark Coffee</h1>
+                <p>Dark roast coffee is a dark brown color and often has an oily surface. These coffees have a low
+                    acidity, heavy body, and
+                    tend to reveal deeper, darker flavors. Coffees roasted to this level tend to not have many of their
+                    origin
+                    characteristics left, but that doesn’t mean that these are bland and boring.</p>
+                <ul>
+                    <li>Calories: 4.7 in a regual 8oz cup of coffee</li>
+                    <li>Calories: 56.6 for a coffee with cream and sugar</li>
+                    <li>To reap the benefits of coffee faster drink it black</li>
+                </ul>
+                <img src="./images/black_coffee.jpeg" width="200px" alt="">
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id013').style.display='none'"
+                        class="cancelbtn">Close</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- 
+    14
+ -->
+<!-- This will be second column sixith button -->
+<div class="section-with-menu">
+
+    <h2 class="same-main-title">Regualar Dark Coffee</h2>
+    <p>12oz ............... $2.00</p>
+    <p>16oz ............... $2.75</p>
+    <button onclick="document.getElementById('id014').style.display='block'">View More</button>
+
+    <div id="id014" class="modal">
+        <span onclick="document.getElementById('id014').style.display='none'" class="close" title="Close Modal">×</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="container">
+                <h1>Regualar Dark Coffee</h1>
+                <p>Dark roast coffee is a dark brown color and often has an oily surface. These coffees have a low
+                    acidity, heavy body, and
+                    tend to reveal deeper, darker flavors. Coffees roasted to this level tend to not have many of their
+                    origin
+                    characteristics left, but that doesn’t mean that these are bland and boring.</p>
+                <ul>
+                    <li>Calories: 4.7 in a regual 8oz cup of coffee</li>
+                    <li>Calories: 56.6 for a coffee with cream and sugar</li>
+                    <li>To reap the benefits of coffee faster drink it black</li>
+                </ul>
+                <img src="./images/black_coffee.jpeg" width="200px" alt="">
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id014').style.display='none'"
+                        class="cancelbtn">Close</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- 
+    15
+ -->
+<!-- This will be second column seventh button -->
+<div class="section-with-menu">
+
+    <h2 class="same-main-title">Regualar Dark Coffee</h2>
+    <p>12oz ............... $2.00</p>
+    <p>16oz ............... $2.75</p>
+    <button onclick="document.getElementById('id015').style.display='block'">View More</button>
+
+    <div id="id015" class="modal">
+        <span onclick="document.getElementById('id015').style.display='none'" class="close" title="Close Modal">×</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="container">
+                <h1>Regualar Dark Coffee</h1>
+                <p>Dark roast coffee is a dark brown color and often has an oily surface. These coffees have a low
+                    acidity, heavy body, and
+                    tend to reveal deeper, darker flavors. Coffees roasted to this level tend to not have many of their
+                    origin
+                    characteristics left, but that doesn’t mean that these are bland and boring.</p>
+                <ul>
+                    <li>Calories: 4.7 in a regual 8oz cup of coffee</li>
+                    <li>Calories: 56.6 for a coffee with cream and sugar</li>
+                    <li>To reap the benefits of coffee faster drink it black</li>
+                </ul>
+                <img src="./images/black_coffee.jpeg" width="200px" alt="">
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id015').style.display='none'"
+                        class="cancelbtn">Close</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- 
+    16
+ -->
+<!-- this be second column eighth button -->
+<div class="section-with-menu">
+
+    <h2 class="same-main-title">Regualar Dark Coffee</h2>
+    <p>12oz ............... $2.00</p>
+    <p>16oz ............... $2.75</p>
+    <button onclick="document.getElementById('id016').style.display='block'">View More</button>
+
+    <div id="id016" class="modal">
+        <span onclick="document.getElementById('id016').style.display='none'" class="close" title="Close Modal">×</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="container">
+                <h1>Regualar Dark Coffee</h1>
+                <p>Dark roast coffee is a dark brown color and often has an oily surface. These coffees have a low
+                    acidity, heavy body, and
+                    tend to reveal deeper, darker flavors. Coffees roasted to this level tend to not have many of their
+                    origin
+                    characteristics left, but that doesn’t mean that these are bland and boring.</p>
+                <ul>
+                    <li>Calories: 4.7 in a regual 8oz cup of coffee</li>
+                    <li>Calories: 56.6 for a coffee with cream and sugar</li>
+                    <li>To reap the benefits of coffee faster drink it black</li>
+                </ul>
+                <img src="./images/black_coffee.jpeg" width="200px" alt="">
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id016').style.display='none'"
+                        class="cancelbtn">Close</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- these will be the closing divs -->
  </div>
+</div>
+
 
 <!-- End of menu section -->
 </body>
