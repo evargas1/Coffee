@@ -1080,32 +1080,63 @@ Hopefully this code will become easily accesable
 /* Set a style for all buttons */
 .same-main-title {
   color: var(--off-red);
-  font-size: 30px;
+  font-size: 40px;
+  font-family: var(--secondary-font);
+  font-weight: 600;
 }
 .section-with-menu p {
   color: var(--off-brown);
-  font-size: 20px;
+  font-size: 18px;
+  font-family: var(--main-font);
 }
-/* #one,
-#three,
-#five,
-#seven,
-#nine,
-#eleven,
-#threeteen,
+#one {
+  margin-left: 160px;
+}
+#two {
+  margin-left: 160px;
+}
+#three {
+  margin-left: 160px;
+}
+#four {
+  margin-left: 160px;
+}
+#five {
+  margin-left: 160px;
+}
+#six {
+  margin-left: 160px;
+}
+#seven {
+  margin-left: 160px;
+}
+#eight {
+  margin-left: 160px;
+}
+#nine {
+  margin-left: 130px;
+}
+#ten {
+  margin-left: 130px;
+}
+#eleven {
+  margin-left: 130px;
+}
+#twelve {
+  margin-left: 130px;
+}
+#threeten {
+  margin-left: 130px;
+}
+#fourteen {
+  margin-left: 130px;
+}
 #fithteen {
-  float: left;
+  margin-left: 130px;
 }
-#two,
-#four,
-#six,
-#eight,
-#ten,
-#twelve,
-#fourteen,
 #sixteen {
-  float: right;
-} */
+  margin-left: 130px;
+}
 button {
   background-color: var(--off-green);
   padding: 14px 20px;
@@ -1207,8 +1238,15 @@ button:hover {
 
 /* Add a color to the cancel button */
 .cancelbtn {
-  background-color: #ccc;
-  color: black;
+  background-color: var(--off-red);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  align-items: center;
+  letter-spacing: 0.3rem;
+}
+.cancelbtn:hover {
+  background-color: var(--off-brown);
 }
 
 /* Add padding and center-align text to the container */
@@ -1224,6 +1262,14 @@ button:hover {
 }
 .container ul li {
   font-size: 15px;
+  font-family: var(--main-font);
+}
+.container h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: var(--off-brown);
+  font-family: var(--main-font);
+  margin-bottom: 6px;
 }
 
 /* The Modal (background) */
