@@ -1054,23 +1054,145 @@ This will be code for the numbers/menu page
 }
 
 /* 
+This will b eth divide of the two main section so fthis webpage
+
+*/
+/* 
+watch you parenthis star
+*/
+
+/* 
+Hopefully this code will become easily accesable
+*/
+
+/* 
   This will now be the Beggining to the menu table 
   */
 
 .section-with-menu {
   box-sizing: border-box;
+  margin: 12px;
+  background-color: #fff;
+  padding: 15px;
+  width: 500px;
 }
 
 /* Set a style for all buttons */
+.same-main-title {
+  color: var(--off-red);
+  font-size: 30px;
+}
+.section-with-menu p {
+  color: var(--off-brown);
+  font-size: 20px;
+}
+/* #one,
+#three,
+#five,
+#seven,
+#nine,
+#eleven,
+#threeteen,
+#fithteen {
+  float: left;
+}
+#two,
+#four,
+#six,
+#eight,
+#ten,
+#twelve,
+#fourteen,
+#sixteen {
+  float: right;
+} */
 button {
-  background-color: #4caf50;
-  color: white;
+  background-color: var(--off-green);
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 200px;
   opacity: 0.9;
+}
+.view-more {
+  font-size: 15px;
+  font-weight: 500;
+}
+.view-more2 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: var(--off-yellow);
+}
+.view-more3 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(200, 228, 200);
+}
+.view-more4 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(153, 126, 126);
+}
+.view-more5 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(199, 199, 115);
+}
+.view-more6 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(209, 139, 139);
+}
+.view-more7 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(219, 146, 219);
+}
+.view-more8 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(142, 142, 189);
+}
+.view-more9 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(219, 146, 219);
+}
+.view-more10 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(226, 132, 140);
+}
+.view-more11 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(198, 199, 155);
+}
+.view-more12 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(226, 161, 108);
+}
+.view-more13 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(139, 136, 150);
+}
+.view-more14 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(207, 125, 176);
+}
+.view-more15 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(179, 178, 170);
+}
+.view-more16 {
+  font-size: 15px;
+  font-weight: 500;
+  background-color: rgb(93, 150, 105);
 }
 
 button:hover {
@@ -1092,7 +1214,10 @@ button:hover {
 /* Add padding and center-align text to the container */
 .container {
   padding: 16px;
-  text-align: center;
+  /* text-align: left; */
+}
+.move-button-right {
+  float: right;
 }
 
 /* The Modal (background) */
@@ -1105,8 +1230,9 @@ button:hover {
   width: 100vw; /* Full width */
   height: 100vh; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: #474e5d;
-  padding-top: 50px;
+  background-color: var(--off-green);
+  padding-top: 30px;
+  opacity: 0.9;
 }
 
 /* Modal Content/Box */
@@ -1115,6 +1241,7 @@ button:hover {
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
   width: 50%; /* Could be more or less, depending on screen size */
+  opacity: 1;
 }
 
 /* Style the horizontal ruler */
@@ -1154,5 +1281,5 @@ hr {
   }
 }
 .new-section-menu {
-  padding-top: 400px;
+  padding-top: 100px;
 }
