@@ -1216,8 +1216,14 @@ button:hover {
   padding: 16px;
   /* text-align: left; */
 }
-.move-button-right {
-  float: right;
+.container ul {
+  /* list-style: none; */
+  padding-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.container ul li {
+  font-size: 15px;
 }
 
 /* The Modal (background) */
