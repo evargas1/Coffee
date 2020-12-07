@@ -943,7 +943,7 @@ This will be code for the numbers/menu page
 */
 /* ------------------------- */
 .overlay-img {
-  background-image: url(./images/new_banner.jpeg);
+  background-image: url(./images/2nd_backg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -1138,7 +1138,7 @@ Hopefully this code will become easily accesable
   margin-left: 130px;
 }
 button {
-  background-color: var(--off-green);
+  /* background-color: var(--off-green); */
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -1149,81 +1149,90 @@ button {
 .view-more {
   font-size: 15px;
   font-weight: 500;
+  background-color: var(--off-red);
+  color: #fff;
 }
 .view-more2 {
   font-size: 15px;
   font-weight: 500;
-  background-color: var(--off-yellow);
+  background-color: var(--off-brown);
+  color: #fff;
 }
 .view-more3 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(200, 228, 200);
+  background-color: var(--off-green);
 }
 .view-more4 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(153, 126, 126);
+  background-color: var(--off-yellow);
 }
 .view-more5 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(199, 199, 115);
+  background-color: var(--off-red);
+  color: #fff;
 }
 .view-more6 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(209, 139, 139);
+  background-color: var(--off-brown);
+  color: #fff;
 }
 .view-more7 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(219, 146, 219);
+  background-color: var(--off-green);
 }
 .view-more8 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(142, 142, 189);
+  background-color: var(--off-yellow);
 }
 .view-more9 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(219, 146, 219);
+  background-color: var(--off-yellow);
 }
 .view-more10 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(226, 132, 140);
+  background-color: var(--off-green);
 }
 .view-more11 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(198, 199, 155);
+  background-color: var(--off-red);
+  color: #fff;
 }
 .view-more12 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(226, 161, 108);
+  background-color: var(--off-brown);
+  color: #fff;
 }
 .view-more13 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(139, 136, 150);
+  background-color: var(--off-yellow);
 }
 .view-more14 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(207, 125, 176);
+  background-color: var(--off-green);
 }
 .view-more15 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(179, 178, 170);
+  background-color: var(--off-red);
+  color: #fff;
 }
 .view-more16 {
   font-size: 15px;
   font-weight: 500;
-  background-color: rgb(93, 150, 105);
+  background-color: var(--off-brown);
+  color: #fff;
 }
 
 button:hover {
@@ -1335,3 +1344,5 @@ hr {
 .new-section-menu {
   padding-top: 100px;
 }
+
+/* footer on second page */
