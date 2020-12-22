@@ -48,11 +48,12 @@ html {
   text-align: center;
 }
 .social_media {
+  margin: 0;
 }
 .social_media ul {
   margin: 0;
   list-style: none;
-  text-align: left;
+  text-align: right;
 }
 .social_media ul li {
   display: inline-block;
