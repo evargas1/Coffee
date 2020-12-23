@@ -718,11 +718,12 @@ mini banner section with information baout whta they are doing to help the commu
   margin-top: 0;
   padding: 0;
   background-color: var(--dark-orange-yellow);
+  height: 60vh;
 }
 
 .text_about_us {
   padding-left: 15px;
-  padding-top: 15px;
+  padding-top: 80px;
   float: right;
 }
 .text_about_us h2 {
@@ -757,18 +758,18 @@ mini banner section with information baout whta they are doing to help the commu
 }
 
 .school_img {
-  padding-top: 80px;
+  padding-top: 100px;
 }
 
 .owners_img {
-  padding-top: 20px;
+  padding-top: 60px;
   float: left;
 }
 
 .bar_img {
   text-align: center;
   padding-bottom: 20px;
-  padding-top: 15px;
+  padding-top: 30px;
   padding-left: 40px;
 }
 /* 
