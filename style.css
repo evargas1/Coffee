@@ -973,17 +973,19 @@ This will be code for the numbers/menu page
   opacity: 0.9;
 }
 .title-info h2 {
-  font-family: var(--secondary-font);
+  font-family: "Xanh Mono", monospace;
   font-weight: 500;
   font-size: 50px;
   opacity: 1;
   color: var(--off-white);
+  letter-spacing: 2px;
 }
 .title-info p {
   font-size: 13px;
   font-weight: 30;
   opacity: 1;
   color: var(--off-white);
+  
 }
 .social-media-right {
   float: right;
@@ -1037,14 +1039,17 @@ This will be code for the numbers/menu page
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 30px;
   color: var(--off-green);
   display: block;
   transition: 0.3s;
+  font-family: "Xanh Mono", monospace;
+  letter-spacing: 2px;
 }
 
 .sidenav a:hover {
   color: var(--off-brown);
+  text-decoration: none;
 }
 
 .sidenav .closebtn {
@@ -1061,6 +1066,7 @@ This will be code for the numbers/menu page
   }
   .sidenav a {
     font-size: 18px;
+    font-family: "Xanh Mono", monospace;
   }
 }
 
@@ -1361,3 +1367,23 @@ hr {
 }
 
 /* footer on second page */
+/* -------- This will being the about us page ------------ */
+
+
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('img_parallax.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
