@@ -1086,6 +1086,8 @@ Hopefully this code will become easily accesable
   background-color: #fff;
   padding: 15px;
   width: 500px;
+  z-index: 5 !important;
+  opacity: 1;
 }
 
 /* Set a style for all buttons */
@@ -1125,28 +1127,28 @@ Hopefully this code will become easily accesable
   margin-left: 160px;
 }
 #nine {
-  margin-left: 130px;
+  margin-left: 300px;
 }
 #ten {
-  margin-left: 130px;
+  margin-left: 300px;
 }
 #eleven {
-  margin-left: 130px;
+  margin-left: 300px;
 }
 #twelve {
-  margin-left: 130px;
+  margin-left: 300px;
 }
 #threeten {
-  margin-left: 130px;
+  margin-left: 300px;
 }
 #fourteen {
-  margin-left: 130px;
+  margin-left: 300px;
 }
 #fithteen {
-  margin-left: 130px;
+  margin-left: 300px;
 }
 #sixteen {
-  margin-left: 130px;
+  margin-left: 300px;
 }
 button {
   /* background-color: var(--off-green); */
@@ -1254,6 +1256,7 @@ button:hover {
 .cancelbtn {
   float: left;
   width: 50%;
+  opacity: 1;
 }
 
 /* Add a color to the cancel button */
@@ -1304,7 +1307,7 @@ button:hover {
   overflow: auto; /* Enable scroll if needed */
   background-color: var(--off-green);
   padding-top: 30px;
-  opacity: 0.9;
+  opacity: 0.97;
 }
 
 /* Modal Content/Box */
@@ -1313,7 +1316,8 @@ button:hover {
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
   width: 50%; /* Could be more or less, depending on screen size */
-  opacity: 1;
+  opacity: 1 !important;
+  z-index: 5;
 }
 
 /* Style the horizontal ruler */
