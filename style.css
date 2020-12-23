@@ -153,7 +153,7 @@ Banner area code with slider and timer animations
   background-color: var(--dark-orange-yellow) !important;
 }
 #banner_area {
-  /* width: 100vw; */
+  width: 100vw;
   overflow: hidden;
   position: relative;
   margin: 0;
@@ -163,7 +163,7 @@ Banner area code with slider and timer animations
   margin: 0 !important;
 }
 #banner_area .item {
-  width: 1349px;
+  width: 100vw;
   overflow: hidden;
   /* border: solid -40px red; */
   /* border: 0 !important;
@@ -173,7 +173,7 @@ Banner area code with slider and timer animations
   margin: 0 !important;
 }
 #banner_area .item img {
-  width: 1349px;
+  width: 100vw;
   height: auto;
   border: 0 !important;
 }
@@ -308,17 +308,18 @@ start of code for first image button id will be first
 */
 #first .banner_text {
   height: 30%;
-  left: 0;
   position: absolute;
-  bottom: 0;
   width: 60%;
 }
 #first .banner_table {
   display: table;
   height: 100%;
   width: 80%;
-  margin-top: 350px;
-  margin-left: 620px;
+  top: 60%;
+  right: 70%;
+  margin-top: 380px;
+  margin-left: 710px;
+  
 }
 #first .banner_align {
   display: table-cell;
@@ -474,6 +475,9 @@ client section right above the cities
 /* 
 Our different locations and cities 
 */
+.image-sec{
+  display: inline-block;
+}
 .container {
   position: relative;
   width: 50%;
@@ -565,6 +569,7 @@ Image 2
 .container_2 {
   position: relative;
   width: 50%;
+  margin: 0;
 }
 
 .container_2 .image_2 {
@@ -609,6 +614,7 @@ Image 3
 .container_3 {
   position: relative;
   width: 50%;
+  margin: 0;
 }
 
 .container_3 .image_3 {
@@ -655,6 +661,7 @@ Image 4 last image
   position: relative;
   width: 50%;
   padding-bottom: 60px;
+  margin: 0;
 }
 
 .container_4 .image_4 {
