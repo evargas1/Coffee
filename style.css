@@ -957,7 +957,7 @@ This will be code for the numbers/menu page
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   margin: 0;
   padding: 0;
 }
@@ -987,12 +987,13 @@ This will be code for the numbers/menu page
 }
 .social-media-right {
   float: right;
+  margin-top: 20px;
 }
 .social-media-right ul {
   margin: 0;
   list-style: none;
   float: right;
-  margin-right: 20px;
+  margin-right: 0;
 }
 .social-media-right ul li {
   display: inline-block;
@@ -1021,7 +1022,7 @@ This will be code for the numbers/menu page
   margin-left: 15px;
 }
 .sidenav {
-  height: 100vh;
+  height: 80vh;
   width: 0;
   position: fixed;
   z-index: 1;
