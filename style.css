@@ -1372,18 +1372,25 @@ hr {
 
 body, html {
   height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
 }
 
-.parallax {
-  /* The image used */
-  background-image: url('img_parallax.jpg');
+.pimg1{
+  background-image: url('./images/LA.jpeg');
+  min-height: 100%;
+}
 
-  /* Full height */
-  height: 100%; 
+.pimg2{
+  background-image: url('./images/New\ York.jpeg');
+  min-height: 400px;
+}
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.pimg3{
+  background-image: url('./images/new_sc.jpg');
+  min-height: 400px;
 }
