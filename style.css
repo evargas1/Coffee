@@ -824,7 +824,7 @@ For now the section with th elocations and directions iwll start
   margin: 0;
   padding: 0;
   background-color: var(--light-green);
-  height: 100vh;
+  height: 80vh;
   /* width: 100vh; */
   /* this does not cover the hwole page only half */
 }
