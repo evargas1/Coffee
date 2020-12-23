@@ -1380,7 +1380,6 @@ body, html {
   color: #666;
 }
 
-<<<<<<< HEAD
 .pimg1, .pimg2, .pimg3{
   position: relative;
   opacity: 0.70;
@@ -1398,24 +1397,15 @@ body, html {
 
 .pimg1{
   background-image: url('./images/owners-image.jpg');
-=======
-.pimg1{
-  background-image: url('./images/LA.jpeg');
->>>>>>> 109111ee9b8dfbe0927de64e49d68be7fe469a8c
   min-height: 100%;
 }
 
 .pimg2{
-<<<<<<< HEAD
   background-image: url('./images/chicago-park-image.jpg');
-=======
-  background-image: url('./images/New\ York.jpeg');
->>>>>>> 109111ee9b8dfbe0927de64e49d68be7fe469a8c
   min-height: 400px;
 }
 
 .pimg3{
-<<<<<<< HEAD
   background-image: url('./images/chicago-water-image.jpg');
   min-height: 400px;
 }
@@ -1448,8 +1438,3 @@ body, html {
   color: #fff;
   padding: 20px;
 }
-=======
-  background-image: url('./images/new_sc.jpg');
-  min-height: 400px;
-}
->>>>>>> 109111ee9b8dfbe0927de64e49d68be7fe469a8c
