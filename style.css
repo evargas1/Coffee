@@ -1597,10 +1597,41 @@ body, html {
 .container {
   position: relative;
   border-radius: 5px;
-  background-color: #f2f2f2;
+  
   padding: 20px 0 30px 0;
   z-index: 9;
+  margin-top: 200px;
+  left: 10%;
+
 } 
+.container form{
+  background-color: rgb(60, 60, 90, 0.8);
+  padding: 30px;
+  height: 250px;
+  width: 900px;
+}
+.move-left .fa{
+  float: left;
+  margin-right: 10px;
+  padding: 9px;
+  border-radius: 10%;
+}
+.move-left a{
+  width: 250px;
+}
+.move-left p{
+  float: left;
+  
+}
+.title-right{
+  text-align: center;
+  width: 100%;
+}
+h2{
+  height: 30px;
+  float: right;
+  width: 100%;
+}
 
 /* style inputs and link buttons */
 input,
@@ -1654,7 +1685,7 @@ input[type=submit]:hover {
   float: left;
   width: 50%;
   margin: auto;
-  padding: 0 50px;
+  padding: 0 10px;
   margin-top: 6px;
 }
 
@@ -1668,14 +1699,14 @@ input[type=submit]:hover {
 /* vertical line */
 .vl {
   position: absolute;
-  left: 50%;
+  left: 30%;
   transform: translate(-50%);
   border: 2px solid #ddd;
   height: 175px;
 }
 
 /* text inside the vertical line */
-.inner {
+.vl-innertext {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -1713,3 +1744,5 @@ input[type=submit]:hover {
     text-align: center;
   }
 }
+
+
