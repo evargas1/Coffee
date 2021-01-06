@@ -133,7 +133,7 @@ html {
   height: 100px;
   padding-top: 6px;
   font-family: "Xanh Mono", monospace;
-  height: 30px;
+  height: 40px;
 }
 .menu_bar ul li a:hover {
   background-color: var(--light-yellow);
@@ -466,6 +466,7 @@ client section right above the cities
   font-weight: 700;
   color: var(--dark-black);
   text-align: center;
+  margin-bottom: 15px;
 }
 #client_section .title_5 p {
   font-family: var(--body-font);
@@ -1025,8 +1026,7 @@ This will be code for the numbers/menu page
 /* ------------------------- */
 .overlay-img {
   background-image: url(./images/2nd_backg.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
   width: 100vw;
   height: 80vh;
   margin: 0;
@@ -1050,6 +1050,7 @@ This will be code for the numbers/menu page
   opacity: 1;
   color: var(--off-white);
   letter-spacing: 2px;
+  margin-bottom: 30px;
 }
 .title-info p {
   font-size: 13px;
@@ -1058,7 +1059,7 @@ This will be code for the numbers/menu page
   color: var(--off-white);
   
 }
-.social-media-right {
+/* .social-media-right {
   float: right;
   margin-top: 20px;
 }
@@ -1086,7 +1087,7 @@ This will be code for the numbers/menu page
 .social-media-right ul li:hover a {
   background-color: var(--off-red);
   color: var(--off-yellow);
-}
+} */
 .hover-menu-bar {
   background-color: var(--off-white);
   width: 40px;
@@ -1173,6 +1174,7 @@ Hopefully this code will become easily accesable
   font-size: 40px;
   font-family: var(--secondary-font);
   font-weight: 600;
+  margin-bottom: 30px;
 }
 .section-with-menu p {
   color: var(--off-brown);
@@ -1559,14 +1561,15 @@ body, html {
 }
 .hover-menu-bar {
   background-color: var(--off-white);
-  width: 35px;
-  padding-left: 9px;
+  width: 40px;
+  padding-left: 10px;
   opacity: 0.8;
   margin-left: 18px;
-  height: 35px;
+  height: 40px;
 }
 .sidenav2 {
   height: 100vh !important;
+  line-height: 3rem;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -1594,25 +1597,24 @@ body, html {
 
 
 /* style the container */
-.container {
+.container8 {
   position: relative;
   border-radius: 5px;
-  
-  padding: 20px 0 30px 0;
+  padding: 20px 0 20px 0;
   z-index: 9;
-  margin-top: 200px;
-  left: 10%;
+  padding-top: 150px;
+  left: 20%;
 
 } 
-.container form{
-  background-color: rgb(60, 60, 90, 0.8);
+.container8 form{
+  background-color: rgba(27, 39, 27, 0.8);
   padding: 30px;
-  height: 250px;
+  height: 300px;
   width: 900px;
 }
 .move-left .fa{
   float: left;
-  margin-right: 10px;
+  margin-right: 15px;
   padding: 9px;
   border-radius: 10%;
 }
@@ -1631,6 +1633,11 @@ h2{
   height: 30px;
   float: right;
   width: 100%;
+  color: #fff;
+  font-family: var(--secondary-font);
+}
+.col p{
+  color: #fff;
 }
 
 /* style inputs and link buttons */
@@ -1699,7 +1706,7 @@ input[type=submit]:hover {
 /* vertical line */
 .vl {
   position: absolute;
-  left: 30%;
+  left: 25%;
   transform: translate(-50%);
   border: 2px solid #ddd;
   height: 175px;
@@ -1720,13 +1727,23 @@ input[type=submit]:hover {
 .hide-md-lg {
   display: none;
 }
-
-/* bottom container */
-.bottom-container {
-  text-align: center;
-  background-color: #666;
-  border-radius: 0px 0px 4px 4px;
+.new-buttons{
+  margin-right: auto 50px;
 }
+.smaller-container{
+ display: inline-flex;
+ float: right;
+ 
+}
+.col2{
+  display: inline-block;
+  
+}
+
+/* This will be the code for the small conatiner with
+
+Sign up or forget password section wont function ofc
+*/
 
 /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 650px) {
